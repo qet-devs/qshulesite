@@ -175,7 +175,7 @@ header {
     transition: all ease 0.5s;
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
-    background: #2aafde;
+    background: #02b3a1;
     -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .1);
     -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .1);
     box-shadow: 0 0 5px rgba(0, 0, 0, .1);
@@ -637,7 +637,7 @@ header.fixed {
 
 .banner_info .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .banner_info .bx-wrapper .bx-pager.bx-default-pager a.active {
-    background: #2aafde;
+    background: #02b3a1;
 }
 
 .banner_info .bx-wrapper .bx-pager.bx-default-pager a.active {
@@ -1853,7 +1853,7 @@ i.digits {
     left: 50%;
     width: 0;
     height: 2px;
-    background-color: #2aafde;
+    background-color: #02b3a1;
     transition: 0.4s;
 }
 
