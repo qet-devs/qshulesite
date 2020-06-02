@@ -7,85 +7,27 @@
 <!--<![endif]-->
 
 
-<!-- Mirrored from www.instahealthsolutions.com/contact_us.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 May 2020 08:13:26 GMT -->
+<!-- Mirrored from www.instahealthsolutions.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 May 2020 08:11:20 GMT -->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/fav.png" />
-    <link rel="canonical" href="contact_us.html" />
-    <title>Contact Us | Insta Hospital and Clinic Management Made Easy</title>
-    <meta name="description" content="Contact Us at Insta Health Solutions, Insta HMS is one of the most trusted and recognized hospital management system and EMR software solution provider in the health care sector." />
+    <link rel="shortcut icon" href="#images/fav.png" />
+    <link rel="canonical" href="index-2.html" />
+    <title>SMIS</title>
+    <meta name="description" content="Cloud based Hospital Information Management System from Insta Health Solutions takes care of all aspects of financial, clinical and operational processes." />
     <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
-    <!--<link href="css/materialize.css" type="text/css" rel="stylesheet">-->
     <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
     <link href="css/easy-responsive-tabs.css" type="text/css" rel="stylesheet">
     <link href="css/jquery.bxslider.css" type="text/css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link href="css/responsive.css" type="text/css" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
     <script src="js/easy-responsive-tabs.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script src="js/jquery.bxslider.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script type="text/javascript">
-    $.urlParam = function(name) {
-        var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
-        if (results) {
-            return results[1] || 0;
-        } else {
-            return '';
-        }
-    }
-    $(function() {
-        if ($.urlParam('req') != '') {
-            var ss = $.urlParam('req');
-            console.log(decodeURIComponent((ss + '').replace(/\+/g, '%20')));
-            ss = decodeURIComponent((ss + '').replace(/\+/g, '%20'));
-            $('#enquirytype').val(ss);
-        }
-
-        if ($.urlParam('status') != '') {
-            var ss = $.urlParam('status');
-            if (ss == 'success') {
-                $('#form-messages').html('<div class="alert alert-success"> <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> Your details has been submitted. Will contact you soon.</div>');
-                $('#enquiryform').reset();
-            } else {
-                $('#form-messages').html('<div class="alert alert-warning"> <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> Error in sending mail.</div>');
-            }
-        }
-
-        $("#enquiryform").validate({
-
-            // Specify the validation rules
-            rules: {
-                firstname: "required",
-                lastname: "required",
-                email: {
-                    required: true,
-                    email: true
-                },
-                phone: "required"
-            },
-
-            // Specify the validation error messages
-            messages: {
-                firstname: "Please enter your first name",
-                lastname: "Please enter your last name",
-                email: "Please enter a valid email address",
-                phone: "Please enter contact phone number"
-            },
-
-            submitHandler: function(form) {
-                form.submit();
-            }
-        });
-
-    });
-    </script>
     <script src="js/script.js"></script>
 </head>
 
@@ -97,10 +39,9 @@
                 <div class="logo_info">
                     <div class="logo_txt_info">
                         <div class="logo">
-                            <a href="https://www.practo.com/" target="_blank"><img src="images/logo_practo.png" alt="logo_practo"></a>
-                            <a href="index.html"> <img src="images/logo_ins.png" alt="logo_ins"></a>
+                            <a href="index.html"> <img src="images/qet/logo.png" alt="logo_ins" height="50px" width="100px"/a>
                         </div>
-                        <p>Hospital and Clinic Management Made Easy</p>
+                        <p>School Management Information  System</p>
                     </div>
                 </div>
                 <div class="top_header_nav">
@@ -110,8 +51,8 @@
                 </div>
             </div>
         </div>
-        <div class="nav_banner_info">
-            <header class="clearfix">
+        <div class="nav_banner_info nav_banner_info_home">
+            <header class="clearfix home_header">
                 <div class="container_info">
                     <div class="nav_info">
                         <nav class="navbar navbar-default" role="navigation">
@@ -120,7 +61,7 @@
                             </div>
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
-                                    <li> <a href="index.html"> Home </a> </li>
+                                    <li class="active"> <a href="index.html"> Home </a> </li>
                                     <li class="hide"> <a href="javascript:void(0)"> Segments </a>
                                         <div class="submenu_info">
                                             <div class="arrow-up"></div>
@@ -136,25 +77,25 @@
                                         <div class="submenu_info">
                                             <div class="arrow-up"></div>
                                             <ul class="submenu">
-                                                <li><a href="modules.html">Modules</a></li>
+                                                <!-- <li><a href="modules.html">Modules</a></li> -->
                                                 <li><a href="process_flows.html">Process Flows</a></li>
-                                                <li><a href="international_features.html">International Features</a></li>
-                                                <li><a href="integration_interfaces.html">Integration and Interfaces</a></li>
+                                                <!-- <li><a href="international_features.html">International Features</a></li>
+                                                <li><a href="integration_interfaces.html">Integration and Interfaces</a></li> -->
                                             </ul>
                                         </div>
                                     </li>
                                     <li> <a href="products.html">Products</a></li>
                                     <li> <a href="javascript:void(0)">Clientele</a>
-                                        <div class="submenu_info">
+                                        <!-- <div class="submenu_info">
                                             <div class="arrow-up"></div>
                                             <ul class="submenu">
                                                 <li><a href="indian_clients.html">Our Clients</a></li>
                                                 <li><a href="testimonials.html">Testimonials</a></li>
                                             </ul>
-                                        </div>
+                                        </div> -->
                                     </li>
-                                    <li class="active"> <a href="javascript:void(0);">Explore</a>
-                                        <div class="submenu_info">
+                                    <li> <a href="contact_us.html">Contact Us</a>
+                                        <!-- <div class="submenu_info">
                                             <div class="arrow-up"></div>
                                             <ul class="submenu">
                                                 <li> <a href="partners.html"> International Partners </a> </li>
@@ -165,7 +106,7 @@
                                                 <li> <a href="faq.html"> FAQ </a> </li>
                                                 <li> <a href="contact_us.html"> Contact Us</a> </li>
                                             </ul>
-                                        </div>
+                                        </div> -->
                                     </li>
                                 </ul>
                             </div>
@@ -183,7 +124,7 @@
         <section class="container_section clearfix">
             <div class="container_info">
                 <div class="contact_heading text-center">
-                    <h5>Manage your hospital effortlessly with Practo’s Insta - Trusted by <span>500+</span> clients across <span>1100+</span> sites in <span>21</span> countries </h5>
+                    <h5>Manage your school effortlessly with Q-shule  Trusted by <span>500+</span> clients across <span>country </h5>
                 </div>
                 <div class="title_txt">
                     <h3>Enquire Now</h3>
@@ -194,197 +135,27 @@
                 </div>
             </div>
         </section>
-        <section class="container_section clearfix locations_info">
-            <div class="container_info">
-                <div class="title_txt">
-                    <h3>Office Locations</h3>
-                </div>
-                <div class="locations_tabsrow">
-                    <div id="horizontalTab">
-                        <ul class="resp-tabs-list">
-                            <li>India and Global Sales</li>
-                            <li>UAE</li>
-                            <li>Saudi Arabia</li>
-                        </ul>
-                        <div class="resp-tabs-container locations_tabs">
-                            <div class="tab1">
-                                <div class="locations_tabslist firsttab">
-                                    <div class="row places_row">
-                                        <div class="col-md-4 col-xs-12 places_addrs">
-                                            <h6>Bangalore</h6>
-                                            <p>Practo Technologies Pvt Ltd
-                                                <br/> Salarpuria Symbiosis 
-                                                <br/> Arekere Village Begur, 
-                                                <br/> Bannerghatta Main Rd, 
-                                                <br/> Bengaluru - 560076
-                                                <br/> Landmark: Opp BPL Medical Technologies Pvt. Ltd. </p>
-                                        </div>
-                                        <div class="col-md-4 col-xs-12 places_addrs">
-                                            <h6>Hyderabad</h6>
-                                            <p>No-2B​ ​2nd​ ​floor,​ ​Inwinex​ ​Tower,
-                                                <br> Plot-No-227/B​ ​Door​ ​No-​ ​8-2-277/B,
-                                                <br> Banjara​ ​Hills,​ ​Road​ ​No​ ​-​ ​2,​
-                                                <br>​ Hyderabad​ ​-​ ​500034 </p>
-                                        </div>
-                                        <div class="col-md-4 col-xs-12 places_addrs">
-                                            <h6>Mumbai</h6>
-                                            <p># 205, Second Floor, Mehta Estate,
-                                                <br> Andheri Kurla Road, Andheri East
-                                                <br> Opp Chintamani Plaza
-                                                <br> Mumbai - 400 093</p>
-                                        </div>
-                                    </div>
-                                    <div class="row places_row">
-                                        <div class="col-md-4 col-xs-12 places_addrs">
-                                            <h6>New Delhi</h6>
-                                            <p>2F, 2nd Floor, Gopala Towers,
-                                                <br> Rajendra Place New Delhi - 110 055</p>
-                                        </div>
-                                        <div class="col-md-4 col-xs-12 places_addrs">
-                                            <h6>Chennai </h6>
-                                            <p>#68, 3rd Floor,
-                                                <br> State Bank of Mysore Building,
-                                                <br> CP Ramasamy Road, Alwarpet,
-                                                <br> Chennai - 600018</p>
-                                        </div>
-                                    </div>
-                                    <div class="salesrelated_row">
-                                        <h4>Sales Related</h4>
-                                        <div class="salesrelated_lft">
-                                            <h5>Sachin Maski</h5>
-                                            <p><i class="fa fa-envelope-o"></i><a href="mailto:sachin.maski@practo.com?Subject=customer-support">sachin.maski@practo.com</a></p>
-                                        </div>
-                                        <div class="salesrelated_rght">
-                                            <p><i class="fa fa-mobile" aria-hidden="true"></i> +91-80-39658929
-                                                <br/>
-                                                <i class="fa fa-envelope-o"></i><a href="mailto:hospitals@practo.com?Subject=Sales">hospitals@practo.com</a></p>
-                                        </div>
-                                    </div>
-                                    <div class="salesrelated_row">
-                                        <div class="salesrelated_lft">
-                                            <h4>For Partnership/Online Demo and Sales for Other Regions:</h4>
-                                            <h5>Sachin Maski</h5>
-                                            <p><i class="fa fa-envelope-o"></i><a href="mailto:sachin.maski@practo.com?Subject=customer-support">sachin.maski@practo.com</a></p>
-                                        </div>
-                                        <div class="salesrelated_rght">
-                                            <h4>Support Related</h4>
-                                            <p><i class="fa fa-mobile" aria-hidden="true"></i> +91-080-49202432, +91-080-67095209
-                                                <br/>
-                                                <i class="fa fa-envelope-o"></i><a href="mailto:Insta-support@practo.com?Subject=customer-support">Insta-support@practo.com</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab2">
-                                <div class="locations_tabslist secondtab">
-                                    <div class="locations_tabslist firsttab">
-                                        <div class="row places_row">
-                                            <div class="col-md-4 col-xs-12 places_addrs">
-                                                <h6>Dubai</h6>
-                                                <p>Practo Pte Ltd
-                                                    <br/> Office No.6, 13th floor,
-                                                    <br/> P.O Box No.31704,Budget Business Center,
-                                                    <br/> Aspin Commercial Tower, Trade Center 1st,
-                                                    <br/> Sheikh Zayed Road, Dubai, UAE.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab3">
-                                <div class="locations_tabslist secondtab">
-                                    <div class="locations_tabslist firsttab">
-                                        <div class="row places_row">
-                                            <div class="col-md-4 col-xs-12 places_addrs">
-                                                <h6>Riyadh</h6>
-                                                <p>Practo Pte Ltd
-                                                    <br/> Building No. 5, Office No. 306,
-                                                    <br/> Al Rossais Building, Al Dhabbab Street,
-                                                    <br/> Beside Riyadh Chambers
-                                                    <br/> Riyadh 11443. Saudi Arabia.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <footer>
             <div class="container_info clearfix">
                 <div class="row">
                     <div class="col-lg-3 col-md-5 col-sm-12">
                         <div class="footer_nav">
-                            <ul>
+                            <!-- <ul>
                                 <li> <a href="javascript:void(0)">Privacy Policy</a> </li>
                                 <li> <a href="javascript:void(0)">Terms of Use</a> </li>
                                 <li> <a href="javascript:void(0)">Site Map</a> </li>
                                 <li> <a href="javascript:void(0)">News Room</a> </li>
-                            </ul>
-                            <p>&copy; 2016 Practo Technologies Pvt. Ltd.</p>
+                            </ul> -->
+                            <p>&copy; 2020 Qet Systems Ltd.</p>
                         </div>
                     </div>
-                    <div class="col-lg-7 col-md-4 col-sm-12">
-                        <div class="country_list">
-                            <ul>
-                                <li>
-                                    <a href="international_clients.html"><img src="images/country_img1.png" alt="country_img1"></a>
-                                </li>
-                                <li>
-                                    <a href="international_clients.html"><img src="images/country_img2.png" alt="country_img2"></a>
-                                </li>
-                                <li>
-                                    <a href="international_clients.html"><img src="images/country_img3.png" alt="country_img3"></a>
-                                </li>
-                                <li>
-                                    <a href="international_clients.html"><img src="images/country_img4.png" alt="country_img4"></a>
-                                </li>
-                                <li>
-                                    <a href="international_clients.html"><img src="images/country_img5.png" alt="country_img5"></a>
-                                </li>
-                                <li>
-                                    <a href="international_clients.html"><img src="images/country_img6.png" alt="country_img6"></a>
-                                </li>
-                                <li>
-                                    <a href="international_clients.html"><img src="images/country_img7.png" alt="country_img7"></a>
-                                </li>
-                                <li>
-                                    <a href="international_clients.html"><img src="images/country_img8.png" alt="country_img8"></a>
-                                </li>
-                                <li>
-                                    <a href="international_clients.html"><img src="images/country_img9.png" alt="country_img9"></a>
-                                </li>
-                                <li>
-                                    <a href="international_clients.html"><img src="images/country_img10.png" alt="country_img10"></a>
-                                </li>
-                                <li>
-                                    <a href="international_clients.html"><img src="images/country_img11.png" alt="country_img11"></a>
-                                </li>
-                                <li>
-                                    <a href="international_clients.html"><img src="images/country_img12.png" alt="country_img12"></a>
-                                </li>
-                                <li>
-                                    <a href="international_clients.html"><img src="images/country_img13.png" alt="country_img13"></a>
-                                </li>
-                                <li>
-                                    <a href="international_clients.html"><img src="images/country_img14.png" alt="country_img14"></a>
-                                </li>
-                                <li>
-                                    <a href="international_clients.html"><img src="images/country_img15.png" alt="country_img15"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+            
                     <div class="col-lg-2 col-md-3 col-sm-12">
                         <div class="socialmediaicon_list">
                             <ul>
-                                <li class="fb_icon"><a href="https://www.facebook.com/insta.healthsolutions" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
-                                <li class="tw_icon"><a href="https://twitter.com/InstaHealth" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
-                                <li class="in_icon"><a href="https://www.linkedin.com/company/1125296" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+                                <li class="fb_icon"><a href="https://www.facebook.com/qetsystems" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+                                <li class="tw_icon"><a href="https://twitter.com/qetsystems" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+                                <li class="in_icon"><a href="https://www.instagram.com/qetsystems" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
                             </ul>
                         </div>
                     </div>
@@ -394,20 +165,29 @@
     </div>
     <!-- Facebook Pixel Code -->
     <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window,document,'script',
-    '../connect.facebook.net/en_US/fbevents.js');
-     fbq('init', '327052174165071'); 
+    ! function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        '../connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '327052174165071');
     fbq('track', 'PageView');
     </script>
     <noscript>
-     <img height="1" width="1" 
-    src="https://www.facebook.com/tr?id=327052174165071&amp;ev=PageView%20%20%20%20&amp;noscript=1"/>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=327052174165071&amp;ev=PageView&amp;noscript=1" />
     </noscript>
     <!-- End Facebook Pixel Code -->
     <!-- Google Analytics Code -->
@@ -429,9 +209,39 @@
 
       gtag('config', 'AW-868048141');
     </script>
+<script>
+/*
+$(function() {
+    var continentMap = {"AD":"EU","AE":"AS","AF":"AS","AG":"NA","AI":"NA","AL":"EU","AM":"AS","AN":"NA","AO":"AF","AP":"AS","AQ":"AN","AR":"SA","AS":"OC","AT":"EU","AU":"OC","AW":"NA","AX":"EU","AZ":"AS","BA":"EU","BB":"NA","BD":"AS","BE":"EU","BF":"AF","BG":"EU","BH":"AS","BI":"AF","BJ":"AF","BL":"NA","BM":"NA","BN":"AS","BO":"SA","BR":"SA","BS":"NA","BT":"AS","BV":"AN","BW":"AF","BY":"EU","BZ":"NA","CA":"NA","CC":"AS","CD":"AF","CF":"AF","CG":"AF","CH":"EU","CI":"AF","CK":"OC","CL":"SA","CM":"AF","CN":"AS","CO":"SA","CR":"NA","CU":"NA","CV":"AF","CX":"AS","CY":"AS","CZ":"EU","DE":"EU","DJ":"AF","DK":"EU","DM":"NA","DO":"NA","DZ":"AF","EC":"SA","EE":"EU","EG":"AF","EH":"AF","ER":"AF","ES":"EU","ET":"AF","EU":"EU","FI":"EU","FJ":"OC","FK":"SA","FM":"OC","FO":"EU","FR":"EU","FX":"EU","GA":"AF","GB":"EU","GD":"NA","GE":"AS","GF":"SA","GG":"EU","GH":"AF","GI":"EU","GL":"NA","GM":"AF","GN":"AF","GP":"NA","GQ":"AF","GR":"EU","GS":"AN","GT":"NA","GU":"OC","GW":"AF","GY":"SA","HK":"AS","HM":"AN","HN":"NA","HR":"EU","HT":"NA","HU":"EU","ID":"AS","IE":"EU","IL":"AS","IM":"EU","IN":"AS","IO":"AS","IQ":"AS","IR":"AS","IS":"EU","IT":"EU","JE":"EU","JM":"NA","JO":"AS","JP":"AS","KE":"AF","KG":"AS","KH":"AS","KI":"OC","KM":"AF","KN":"NA","KP":"AS","KR":"AS","KW":"AS","KY":"NA","KZ":"AS","LA":"AS","LB":"AS","LC":"NA","LI":"EU","LK":"AS","LR":"AF","LS":"AF","LT":"EU","LU":"EU","LV":"EU","LY":"AF","MA":"AF","MC":"EU","MD":"EU","ME":"EU","MF":"NA","MG":"AF","MH":"OC","MK":"EU","ML":"AF","MM":"AS","MN":"AS","MO":"AS","MP":"OC","MQ":"NA","MR":"AF","MS":"NA","MT":"EU","MU":"AF","MV":"AS","MW":"AF","MX":"NA","MY":"AS","MZ":"AF","NA":"AF","NC":"OC","NE":"AF","NF":"OC","NG":"AF","NI":"NA","NL":"EU","NO":"EU","NP":"AS","NR":"OC","NU":"OC","NZ":"OC","O1":"--","OM":"AS","PA":"NA","PE":"SA","PF":"OC","PG":"OC","PH":"AS","PK":"AS","PL":"EU","PM":"NA","PN":"OC","PR":"NA","PS":"AS","PT":"EU","PW":"OC","PY":"SA","QA":"AS","RE":"AF","RO":"EU","RS":"EU","RU":"EU","RW":"AF","SA":"AS","SB":"OC","SC":"AF","SD":"AF","SE":"EU","SG":"AS","SH":"AF","SI":"EU","SJ":"EU","SK":"EU","SL":"AF","SM":"EU","SN":"AF","SO":"AF","SR":"SA","ST":"AF","SV":"NA","SY":"AS","SZ":"AF","TC":"NA","TD":"AF","TF":"AN","TG":"AF","TH":"AS","TJ":"AS","TK":"OC","TL":"AS","TM":"AS","TN":"AF","TO":"OC","TR":"EU","TT":"NA","TV":"OC","TW":"AS","TZ":"AF","UA":"EU","UG":"AF","UM":"OC","US":"NA","UY":"SA","UZ":"AS","VA":"EU","VC":"NA","VE":"SA","VG":"NA","VI":"NA","VN":"AS","VU":"OC","WF":"OC","WS":"OC","YE":"AS","YT":"AF","ZA":"AF","ZM":"AF","ZW":"AF"};
+    $.ajax('https://ipinfo.io/json', function success(response) {
+        if (!continentMap.hasOwnProperty(response.country)) {
+            return;
+        }
+        continentCode = continentMap[response.country];
+        if (data.geoplugin_continentCode == 'AF') {
+            $(".banner_info ul li.banner_txt1").addClass('africanbanner');
+            $(".clients_info").hide();
+            $(".clients_info#african_client_info").show();
+            $(".banner_info").hide();
+            $(".banner_info#african_banner_info").show();
+            $('.clients_sider').bxSlider({
+                pager: false,
+                minSlides: 1,
+                maxSlides: 5,
+                slideWidth: 230,
+                slideMargin: 0
+            });
 
+            $('.african_banner_slider').bxSlider({
+                auto: true,
+                pause: 5000
+            });
+        }
+    });
+});*/
+</script>
 </body>
 
 
-<!-- Mirrored from www.instahealthsolutions.com/contact_us.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 May 2020 08:13:26 GMT -->
+<!-- Mirrored from www.instahealthsolutions.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 May 2020 08:11:58 GMT -->
 </html>
